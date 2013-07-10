@@ -1,0 +1,120 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial, Sans-Serif;
+	font-size:12px;
+	color:#333;
+	text-align:center;
+	background:#efefef;
+}
+
+#container{
+	width:980px;
+	margin:65px auto;
+	padding:10px;
+	text-align:left;
+	background:#fff;
+	border:1px solid #ccc;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-box-shadow: 0px 0px 6px #aaa;
+	-webkit-box-shadow: 0px 0px 6px #aaa;
+}
+
+	#downloadable_files{
+		float:left;
+		display:inline-block;
+		width:60%;
+	}
+	
+		#thumbs{
+			display:inline-block;
+			width:100%;
+			margin-top:20px;
+			text-align:center;
+		}
+		
+			.thumb_container{
+				width:170px;
+				height:170px;
+				padding:4px;
+				display:inline-block;
+				margin:10px;
+				text-align:center;
+			}
+			
+				.thumb_container a{
+					border:0;
+				}
+			
+				.thumb_container img{
+					max-height:150px;
+					max-width:150px;
+					padding:2px;
+					border:1px solid #ccc;
+				}
+				
+				.thumb_container img:hover{
+					border:1px solid #888;
+				}
+				
+				.thumb_container a{
+					border:0;
+					text-decoration:none !important;
+					margin-top:3px;
+					color:#666;
+				}
+	
+	#download_list{
+		float:right;
+		display:inline-block;
+		width:35%;
+	}
+	
+		#info:before{
+			content: "Drag and Drop your files here..." !important;
+			padding-top:40px;
+			font-size:15px;
+			display:inline-block;
+			vertical-align:center;
+			text-align:center;
+			width:100%;
+			color:#bbb;
+			min-height:60px;
+		}
+	
+		#info{
+			background:none repeat scroll 0 0 #f6f6f6;
+			border:1px dashed #ccc;
+		}
+		
+		#file_title{
+			border-bottom:1px dotted #777;
+			font-size:16px;
+			margin:15px 0;
+			padding:0 0 10px;
+		}
+		
+		#file_ul{
+			margin:15px 0;
+			padding:0 0 0 20px;
+			border-left:3px solid #aaa;
+		}
+		
+			#file_ul li{
+				list-style:none;
+				padding:8px 0;
+				font-weight:strong;
+			}
+			
+		#zipdrop_download{
+			padding:6px 10px;
+			margin-top:8px;
+			display:inline-block;
+			background:#333;
+			color:#fff;
+			font-weight:bold;
+			-moz-border-radius:3px;
+			-webkit-border-radius:3px;
+			text-decoration:none;
+		}
